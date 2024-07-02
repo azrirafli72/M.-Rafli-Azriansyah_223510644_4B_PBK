@@ -1,0 +1,5 @@
+body {
+    background: var(--light) url('./Gambar.jpg') no-repeat center center;
+  	background-size: cover;
+  	color: var(--dark);
+  }
