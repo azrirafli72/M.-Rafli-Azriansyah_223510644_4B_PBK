@@ -9,9 +9,10 @@
       <h2>Proses Hitung Angka, Terdapat Class dan Style Binding (Pada Danger)</h2>
       <br />
       <div class="buttons">
-        <button @click="increment">Increment (+)</button>
-        <button @click="reset">Reset</button>
         <button @click="decrement">Decrement (-)</button>
+        <button @click="reset">Reset</button>
+        <button @click="increment">Increment (+)</button>
+        
       </div>
       <div class="counter">
         <p v-if="counter >= 0" class="counter-value">{{ counter }}</p>
